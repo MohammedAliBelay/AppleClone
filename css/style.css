@@ -130,7 +130,17 @@ color: white;
     color: white;
 }
 /* section-2 ends */
-
+/* section-3 */
+.Third-section{
+    background-image: url("../images/home/iphone11-bg.jpg");
+}
+.product-discription{
+    color: black;
+}
+.Title {
+    color: black;
+}
+/* section-3 ends*/
 /* section Six begins */
 
 .product {
