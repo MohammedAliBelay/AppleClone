@@ -39,3 +39,61 @@ body {
     opacity: 1;
 }
 /* header ends */
+
+/* section1 start */
+a {
+    text-decoration: none;
+}
+ul {
+    list-style: none;
+}
+body {
+  font-family: "Montserrat", sans-serif;
+}
+.general{
+    text-align: center;
+}
+.model{
+    padding-top: 20px;
+}
+
+.banner{
+    height: 710px;
+    background-position: bottom;
+    background-size: auto;
+    margin-bottom: 20px;
+	text-align: center;
+	padding: 25px 0;
+
+}
+.links ul{
+    /* list-style: none; */
+    text-decoration:none;
+    
+}
+.links a::after{
+    content: "\f105";
+    font-family: "fontawesome";
+    padding: 5px;
+    font-weight: 700;}
+
+.links ul li {
+    display: inline-block;
+    padding: 12px;
+}
+.product-title {
+    font-size: 54px;
+    font-weight: 700;
+    padding-top: 10px;
+}
+.links a:hover{
+    color: black;
+    opacity: 1;
+}
+.links ul li a{
+    color: rgb(60, 131, 212);
+}
+.description{
+	font-size: 46px;
+}
+/* section1 end */
