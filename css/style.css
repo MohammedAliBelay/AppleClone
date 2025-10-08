@@ -40,62 +40,45 @@ body {
 }
 /* header ends */
 
-/* section1 start */
-a {
-  text-decoration: none;
+/* section-1 */
+.First-section{
+    text-align: center;
+    background: #fafafa;
 }
-ul {
-  list-style: none;
+.First-section ul{
+    list-style: none;
+    padding: 20px;
 }
-body {
-  font-family: "Montserrat", sans-serif;
+.model{
+    font-size: 20px;
+    padding: 30px;
 }
-.general {
-  text-align: center;
+.MacBook{
+    font-size: 30px;
+    font-weight: 600;
+    margin: 0%;
+    padding: 20px;
 }
-.model {
-  padding-top: 20px;
+.list-wraper ul li{
+    display: inline-block;
+    padding: 20px;
 }
-
-.banner {
-  height: 710px;
-  background-position: bottom;
-  background-size: auto;
-  margin-bottom: 20px;
-  text-align: center;
-  padding: 25px 0;
+.list-wraper ul li a{
+    text-decoration: none;
+    font-size: 20px;
+    font-weight: 500;
 }
-.links ul {
-  /* list-style: none; */
-  text-decoration: none;
+.list-wraper ul li a:hover{
+    color: black;
 }
-.links a::after {
-  content: "\f105";
-  font-family: "fontawesome";
-  padding: 5px;
-  font-weight: 700;
+.list-wraper ul li a:after {
+    font-family: "FontAwesome";
+    font-weight: 900;
+    font-size: 20px;
+    content: "\f105";
+    padding-left: 10px;
 }
-
-.links ul li {
-  display: inline-block;
-  padding: 12px;
-}
-.product-title {
-  font-size: 54px;
-  font-weight: 700;
-  padding-top: 10px;
-}
-.links a:hover {
-  color: black;
-  opacity: 1;
-}
-.links ul li a {
-  color: rgb(60, 131, 212);
-}
-.description {
-  font-size: 46px;
-}
-/* section1 end */
+/* section-1 ends */
 /* section-2 */
 .Second-section{
     background-image: url(../images/home/iphone11-pro-bg.jpg);
@@ -130,6 +113,7 @@ color: white;
     color: white;
 }
 /* section-2 ends */
+<<<<<<< HEAD
 
 /* section-4 */
 .watch-card{
@@ -160,6 +144,19 @@ color: white;
 	padding: 10px; 
 }
 /* section-4 */
+=======
+/* section-3 */
+.Third-section{
+    background-image: url("../images/home/iphone11-bg.jpg");
+}
+.product-discription{
+    color: black;
+}
+.Title {
+    color: black;
+}
+/* section-3 ends*/
+>>>>>>> 49a4409612fa8127c29e046e8144142fa8dac61e
 /* section Six begins */
 
 .product {
