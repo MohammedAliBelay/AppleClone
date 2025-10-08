@@ -96,6 +96,40 @@ body {
   font-size: 46px;
 }
 /* section1 end */
+/* section-2 */
+.Second-section{
+    background-image: url(../images/home/iphone11-pro-bg.jpg);
+    
+}
+.Second-section, .Third-section{
+    height: 580px;
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+	text-align: center;
+	padding: 65px 20px;
+	color: #fff;
+}
+.title {
+    font-size: 50px;
+    font-weight: 600;
+    color: white;
+}
+.Second-section .product-discription{
+color: white;
+}
+.product-discription{
+    font-size: 30px;
+    padding: 10px 0;
+}
+.price-tag {
+    color: #86868b; 
+	font-size: 20px;
+}
+.Second-section .list-wraper ul li a:hover{
+    color: white;
+}
+/* section-2 ends */
 
 /* section Six begins */
 
