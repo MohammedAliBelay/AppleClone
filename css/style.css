@@ -113,7 +113,6 @@ color: white;
     color: white;
 }
 /* section-2 ends */
-<<<<<<< HEAD
 
 /* section-4 */
 .watch-card{
@@ -144,7 +143,46 @@ color: white;
 	padding: 10px; 
 }
 /* section-4 */
-=======
+
+* section-5 */
+.tv-airpod {
+    display: flex;
+    justify-content: space-between;
+    background: #fff;
+    margin-top: 15px;
+}
+.television {
+    background-image:  url("../images/home/apple-tv-background.jpg"); 
+}
+.tv-log {
+    font-size: 40px;
+	font-weight: bold;
+}
+.tv-show-lograpper {
+    padding: 180px 0 200px;
+}
+.watch-more a{
+    text-decoration: none;
+	font-size: 20px;
+}
+.watch-more a:after{
+    font-family: "FontAwesome";
+    font-weight: 900;
+    content: "\f144";
+    padding-left: 15px;
+    text-decoration: none;
+}
+.airpod{
+    background-image: url(../images/home/air-pods.jpg);
+    color: white;
+	background-size: initial;
+	background-color: #000;
+	background-position: bottom;
+}
+.airpod .product-discription{
+    color:#fafafa;
+}
+/* section-5 */
 /* section-3 */
 .Third-section{
     background-image: url("../images/home/iphone11-bg.jpg");
@@ -156,7 +194,6 @@ color: white;
     color: black;
 }
 /* section-3 ends*/
->>>>>>> 49a4409612fa8127c29e046e8144142fa8dac61e
 /* section Six begins */
 
 .product {
