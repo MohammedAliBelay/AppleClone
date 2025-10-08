@@ -1,99 +1,126 @@
-*{
-    padding: 0%;
-    margin: 0%;
+* {
+  padding: 0%;
+  margin: 0%;
 }
 img {
-	max-width: 100%;
+  max-width: 100%;
 }
 body {
-    font-size: 20px; 
-	font-family: 'Montserrat', sans-serif;
+  font-size: 20px;
+  font-family: "Montserrat", sans-serif;
 }
 /* header */
 .header {
-    background-color: black;
+  background-color: black;
 }
 .header .header-lists ul {
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    padding: 25px 0;
-    list-style: none;
-    width: 75%;
-    margin: 0 auto;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 25px 0;
+  list-style: none;
+  width: 75%;
+  margin: 0 auto;
 }
-.header .header-lists  ul li a{
-    opacity: 0.65;
+.header .header-lists ul li a {
+  opacity: 0.65;
 }
 
 .header ul img {
-    width: 18px;
+  width: 18px;
 }
-.header .header-lists  ul a{
-    color: white;
-    text-decoration: none;
-    font-size: 15px;
-    opacity: 0.65;
+.header .header-lists ul a {
+  color: white;
+  text-decoration: none;
+  font-size: 15px;
+  opacity: 0.65;
 }
-.header .header-lists ul a:hover{
-    opacity: 1;
+.header .header-lists ul a:hover {
+  opacity: 1;
 }
 /* header ends */
 
 /* section1 start */
 a {
-    text-decoration: none;
+  text-decoration: none;
 }
 ul {
-    list-style: none;
+  list-style: none;
 }
 body {
   font-family: "Montserrat", sans-serif;
 }
-.general{
-    text-align: center;
+.general {
+  text-align: center;
 }
-.model{
-    padding-top: 20px;
+.model {
+  padding-top: 20px;
 }
 
-.banner{
-    height: 710px;
-    background-position: bottom;
-    background-size: auto;
-    margin-bottom: 20px;
-	text-align: center;
-	padding: 25px 0;
-
+.banner {
+  height: 710px;
+  background-position: bottom;
+  background-size: auto;
+  margin-bottom: 20px;
+  text-align: center;
+  padding: 25px 0;
 }
-.links ul{
-    /* list-style: none; */
-    text-decoration:none;
-    
+.links ul {
+  /* list-style: none; */
+  text-decoration: none;
 }
-.links a::after{
-    content: "\f105";
-    font-family: "fontawesome";
-    padding: 5px;
-    font-weight: 700;}
+.links a::after {
+  content: "\f105";
+  font-family: "fontawesome";
+  padding: 5px;
+  font-weight: 700;
+}
 
 .links ul li {
-    display: inline-block;
-    padding: 12px;
+  display: inline-block;
+  padding: 12px;
 }
 .product-title {
-    font-size: 54px;
-    font-weight: 700;
-    padding-top: 10px;
+  font-size: 54px;
+  font-weight: 700;
+  padding-top: 10px;
 }
-.links a:hover{
-    color: black;
-    opacity: 1;
+.links a:hover {
+  color: black;
+  opacity: 1;
 }
-.links ul li a{
-    color: rgb(60, 131, 212);
+.links ul li a {
+  color: rgb(60, 131, 212);
 }
-.description{
-	font-size: 46px;
+.description {
+  font-size: 46px;
 }
 /* section1 end */
+
+/* section Six begins */
+
+.product {
+  padding: 40px 5px 30px;
+  background-repeat: no-repeat;
+  background-position: bottom;
+  background-color: #fafafa;
+  height: 510px;
+  background-size: auto 450px;
+}
+.product .font-size-2 {
+  font-size: clamp(1.6rem, 4vw, 2.6rem);
+}
+.product .font-size-4 {
+  font-size: clamp(0.95rem, 2.3vw, 1.3rem);
+}
+
+.macbook-pro {
+  background-image: url("../images/home/macbook-pro.jpg");
+  background-size: auto 310px;
+}
+.new-ipad {
+  background-image: url("../images/home/new-ipad.jpg");
+  background-size: auto 470px;
+}
+
+/* section Six ends */
