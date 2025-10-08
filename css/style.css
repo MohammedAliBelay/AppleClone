@@ -1,0 +1,41 @@
+*{
+    padding: 0%;
+    margin: 0%;
+}
+img {
+	max-width: 100%;
+}
+body {
+    font-size: 20px; 
+	font-family: 'Montserrat', sans-serif;
+}
+/* header */
+.header {
+    background-color: black;
+}
+.header .header-lists ul {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 25px 0;
+    list-style: none;
+    width: 75%;
+    margin: 0 auto;
+}
+.header .header-lists  ul li a{
+    opacity: 0.65;
+}
+
+.header ul img {
+    width: 18px;
+}
+.header .header-lists  ul a{
+    color: white;
+    text-decoration: none;
+    font-size: 15px;
+    opacity: 0.65;
+}
+.header .header-lists ul a:hover{
+    opacity: 1;
+}
+/* header ends */
