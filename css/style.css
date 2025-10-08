@@ -109,11 +109,11 @@ color: white;
     color: #86868b; 
 	font-size: 20px;
 }
-.Second-section .list-wraper ul li a:hover{
+.Second-section .list-wrapper ul li a:hover{
     color: white;
 }
 /* section-2 ends */
-<<<<<<< HEAD
+
 
 /* section-4 */
 .watch-card{
@@ -144,7 +144,7 @@ color: white;
 	padding: 10px; 
 }
 /* section-4 */
-=======
+
 /* section-3 */
 .Third-section{
     background-image: url("../images/home/iphone11-bg.jpg");
@@ -155,10 +155,6 @@ color: white;
 .Title {
     color: black;
 }
-/* section-3 ends*/
->>>>>>> 49a4409612fa8127c29e046e8144142fa8dac61e
-/* section Six begins */
-
 .product {
   padding: 40px 5px 30px;
   background-repeat: no-repeat;
