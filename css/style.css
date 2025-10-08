@@ -97,30 +97,60 @@ body {
 }
 /* section1 end */
 
-/* section Six begins */
-
-.product {
-  padding: 40px 5px 30px;
-  background-repeat: no-repeat;
+/*fivth section page start here */
+.fivth-Section-page {
+  display: flex;
+  -webkit-box-pack: justify;
+  justify-content: space-between;
+  background: #fff;
+}
+.fivth-Section-page .wrapper-left-side-wrapper {
+  background-image: url("../images/home/apple-tv-background.jpg");
+}
+.fivth-Section-page .wrapper-right-side-wrapper {
+  background-image: url("../images/home/air-pods.jpg");
+  color: #fff;
+  background-size: initial;
+  background-color: #000;
   background-position: bottom;
-  background-color: #fafafa;
-  height: 510px;
-  background-size: auto 450px;
 }
-.product .font-size-2 {
-  font-size: clamp(1.6rem, 4vw, 2.6rem);
+.wrapper-wrapper-logo-wrapper {
+  font-size: 40px;
+  font-weight: bold;
 }
-.product .font-size-4 {
-  font-size: clamp(0.95rem, 2.3vw, 1.3rem);
+.wrapper-tv-logo-wraper {
+  padding: 180px 0 200px;
 }
+.wrapper-watch-more-wrapper a {
+  text-decoration: none;
+  font-size: 0.85em;
+}
+.wrapper-watch-more-wrapper a:after {
+  font-family: "FontAwesome";
+  font-weight: 900;
+  content: "\f144";
+  padding-left: 15px;
+}
+/* fivth section page end */
 
-.macbook-pro {
+/*Six Section start here*/
+.six-Section-page {
+  display: flex;
+  -webkit-box-pack: justify;
+  justify-content: space-between;
+  background: #fff;
+}
+.six-Section-page .wrapper-left-side-wrapper {
   background-image: url("../images/home/macbook-pro.jpg");
-  background-size: auto 310px;
+  background-size: initial;
+  background-color: #fafafa;
+  background-position: bottom;
 }
-.new-ipad {
+.six-Section-page .wrapper-right-side-wrapper {
   background-image: url("../images/home/new-ipad.jpg");
-  background-size: auto 470px;
 }
-
-/* section Six ends */
+.six-Section-page-product-title-small {
+  font-weight: 700;
+  font-size: 45px;
+}
+/* six section page end */
