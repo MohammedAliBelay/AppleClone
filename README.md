@@ -45,6 +45,7 @@ Each section uses a similar structure with:
 - CTA buttons (Learn More / Buy)
 
 Products featured:
+- Section 1: mac pc
 - Section 2: iPhone 11 Pro
 - Section 3: iPhone 11
 - Section 4: Apple Watch Series 5 & Apple Card
