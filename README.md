@@ -16,13 +16,13 @@ Project Structure
 ```
 project-root/
 │
-├── index.html                # Main HTML file (this project)
+├── index.html                # Main HTML file 
 ├── CSS/
 │   └── style.css             # Custom CSS styles
 ├── images/
 │   ├── home/                 # MacBook and other hero section images
 │   └── icons/                # Apple icons, logos, search, cart, etc.
-└── README.md                 # Project documentation (this file)
+└── README.md                 # Project documentation 
 ```
 
 Page Structure
