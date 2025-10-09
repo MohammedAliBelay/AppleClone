@@ -90,7 +90,7 @@ Future Enhancements
 
  Author & Credits
 - Project: Apple Website Clone  
-- Developer: Rediet Befikadu, Mohammed Ali, Hananiya, Desalegn,    
+- Developer: Rediet Befikadu, Mohammed Ali, Hananiya Wendirad, Desalegn Tsega, Ahlam Ahmed    
 - Inspiration: Apple Official Website  
 - Date: October 2025
 
